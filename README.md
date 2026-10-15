@@ -566,16 +566,6 @@ This project should be evaluated against relevant literature in:
 - Sparse graph learning and adaptive edge selection.
 - Computationally efficient molecular property prediction.
 
-A relevant starting point for the project's broader motivation is:
-
-**U2CMigration: User-Unaware Container Migration with Predictive Analysis of Memory Dirty Pages.** *Journal of Computer Science and Technology* (2025).
-
-Article: https://link.springer.com/article/10.1007/s11390-025-4583-0
-
-This paper concerns memory dirty-page prediction for container migration. It is from a different application domain and should not be presented as direct evidence for BBB permeability prediction or as proof that the molecular edge-selection mechanism is novel.
-
-Before publication, identify and cite the most closely related molecular graph sparsification and adaptive edge-selection papers, and clearly distinguish their contributions from this project's implementation.
-
 ## 16. Responsible Use
 
 This software is intended for academic research and experimentation. Its outputs are computational predictions, not medical advice or experimental confirmation of BBB permeability.
@@ -593,9 +583,7 @@ Their respective licenses and citation requirements should be followed when dist
 - **Project:** Adaptive Spatial Edge Selection for BBB Permeability Prediction
 - **Domain:** Computational drug discovery, graph machine learning, cheminformatics
 - **Project type:** Research and implementation prototype
-- **Repository:** Add the GitHub repository URL
-- **Author:** Add your preferred name
-- **Institution:** Add your institution, if appropriate
+- **Repository:** https://github.com/Shravani220607/BBBP-Adaptive-GNN
 
 ---
 
