@@ -1,0 +1,48 @@
+
+experiments:
+  - name: "fixed_baseline"
+    label: "Fixed Baseline"
+    description: "Multi-scale graphs with fixed cutoffs and cutoff attention"
+    model_type: "baseline"
+    ablation_mode: "full"
+    edge_budget_ratio: 1.0
+    preserve_bonds: true
+
+  - name: "adaptive_budget_0.3"
+    label: "Adaptive (Budget 0.3)"
+    description: "Adaptive edge selection with a 30% budget"
+    model_type: "adaptive"
+    ablation_mode: "adaptive"
+    edge_budget_ratio: 0.3
+    preserve_bonds: true
+
+  - name: "adaptive_budget_0.5"
+    label: "Adaptive (Budget 0.5)"
+    description: "Adaptive edge selection with a 50% budget"
+    model_type: "adaptive"
+    ablation_mode: "adaptive"
+    edge_budget_ratio: 0.5
+    preserve_bonds: true
+
+  - name: "adaptive_budget_0.7"
+    label: "Adaptive (Budget 0.7)"
+    description: "Adaptive edge selection with a 70% budget"
+    model_type: "adaptive"
+    ablation_mode: "adaptive"
+    edge_budget_ratio: 0.7
+    preserve_bonds: true
+
+  - name: "adaptive_no_bond_preservation"
+    label: "Adaptive (No Bond Guard)"
+    description: "Adaptive edge selection without bond preservation"
+    model_type: "adaptive"
+    ablation_mode: "adaptive"
+    edge_budget_ratio: 0.5
+    preserve_bonds: false
+
+split: scaffold
+epochs: 15
+seed: 42
+batch_size: 32
+lr: 0.001
+min_recall: 0.70

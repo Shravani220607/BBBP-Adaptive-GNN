@@ -1,0 +1,2 @@
+threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,specificity,predicted_positives,false_positives,true_positives,true_negatives,false_negatives,inference_latency_ms,total_inference_time_ms,peak_memory_mb,avg_candidate_edges,avg_retained_edges,spatial_sparsity_ratio,edge_scoring_latency_ms,val_selected_threshold,min_recall_required,min_recall_met,model_type,edge_budget_ratio
+0.01,1.0,1.0,1.0,1.0,,1.0,0.0,51,0,51,0,0,4.228400000297994,215.6484000151977,3.455585479736328,23737.0,11868.5,0.5,6.526750003104098,0.01,0.7,True,adaptive,0.5

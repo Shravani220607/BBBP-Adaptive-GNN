@@ -1,0 +1,9 @@
+
+split: scaffold
+num_molecules: 20
+shap_background: 20
+shap_nsamples: 100
+explainer_epochs: 200
+explainer_lr: 0.05
+size_coef: 0.01
+entropy_coef: 0.01

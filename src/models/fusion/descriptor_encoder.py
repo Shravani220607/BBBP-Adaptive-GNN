@@ -1,0 +1,1 @@
+from models.encoders.descriptor_encoder import DescriptorEncoder

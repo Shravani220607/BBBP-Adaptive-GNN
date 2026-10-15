@@ -1,0 +1,3 @@
+Model,Threshold,Precision,Recall,F1,PR-AUC,ROC-AUC,Specificity,Predicted Positives,False Positives,Inference Latency (ms),Peak Memory (MB),Spatial Sparsity,Avg Retained Edges
+Baseline,0.01,1.0,1.0,1.0,1.0,,0.0,51,0,3.4396490196277405,0.07182884216308594,0.0,N/A
+Adaptive,0.01,1.0,1.0,1.0,1.0,,0.0,51,0,4.228400000297994,3.455585479736328,0.5,11868.5

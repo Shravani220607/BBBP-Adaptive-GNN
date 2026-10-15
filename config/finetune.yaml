@@ -1,0 +1,11 @@
+
+split: scaffold
+epochs: 50
+batch_size: 32
+lr: 0.001
+seed: 42
+use_pretrained: true
+model_type: adaptive
+edge_budget_ratio: 0.5
+min_recall: 0.70
+preserve_bonds: true
